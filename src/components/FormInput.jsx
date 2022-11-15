@@ -43,6 +43,7 @@ function BasicButtonExample() {
 
 function FormInput() {
   return (
+    <div className="bg">
     <div className="formInput">
       <div className="formInputCard">
         <div className="formInputCardHeadingContainer">
@@ -63,7 +64,6 @@ function FormInput() {
             <div className="formInputdropdown">
               <BasicButtonExample />
             </div>
-
             <div className="formInputFormFundButtonContainer">
               <button
                 className="formInputFormFundButtonContainer2"
@@ -75,6 +75,7 @@ function FormInput() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }

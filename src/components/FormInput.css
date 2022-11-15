@@ -1,19 +1,35 @@
 .formInputCard {
   border-radius: 12px;
-  background: #ffffff;
-  width: 1105px;
-  height: 389px;
+  width: 1092px;
+  height: 353px;
   font-family: Imported;
   display: inline-block;
-}
-.formInput {
-  margin-top: 214px;
-  margin-left: 407px;
-  margin-right: 408px;
-  margin-bottom: 572px;
+
+
 }
 
+.bg{
+ height: 100vh;
+  width: 100%;
+  background-size: cover;
+    background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  /* background-size:contain;
+  background-size: 1556px 810px */
+}
+
+
+.formInput {
+  margin-top: 0px;
+  margin-left: 375px;
+  margin-right: 408px;
+  margin-bottom: 572px;
+  padding-top: 5%;
+}
+
+
 .formInputCardHeadingContainer {
+  
   display: inline-block;
   padding-top: 78px;
   padding-left: 79px;
@@ -146,4 +162,27 @@ svg {
   border-radius: 12px;
   font-size: 20px;
 }
-
+@media only screen and (max-width: 600px){
+  .formInputCard {
+    border-radius: 12px;
+    width: 1092px;
+    height: 353px;
+    font-family: Imported;
+    display: inline-block;
+  }
+  .formInput {
+    margin-top: 0px;
+    margin-left: 375px;
+    margin-right: 408px;
+    margin-bottom: 572px;
+    padding-top: 5%;
+  }
+  .bg{
+    background-image: url(../img/bg.png);
+    /* max-width: 2000px; */
+    /* min-height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+}

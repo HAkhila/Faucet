@@ -1,6 +1,8 @@
 .App{
   align-items: center;
   justify-content: center;
+  height: 1096px;
+  width: 1636;
 }
 
 @font-face {
